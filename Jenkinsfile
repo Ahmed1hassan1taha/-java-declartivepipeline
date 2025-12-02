@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/<YOUR_USERNAME>/<REPO>.git'
+        git branch: 'main', url: 'https://github.com/Ahmed1hassan1taha/-java-declartivepipeline.git'
       }
     }
 
